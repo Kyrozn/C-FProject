@@ -3,7 +3,7 @@ Console App game in c#. It's a School project. The objective is to make an Summo
 
 Here's the tutorial for download and start the project. 
 
-**Prérequis**
+**Prerequisites**
 
 1. Have git installed in the desktop
 2. Ensure you have the .Net SDK 8.0 else download from [this link](https://dotnet.microsoft.com/fr-fr/download/dotnet/8.0)
