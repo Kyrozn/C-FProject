@@ -1,5 +1,5 @@
 # C-FProject
-Console App game in c#. It's a School project. The objective is to make an Summoners War like in console. ([Order of the Projects](https://cdn.discordapp.com/attachments/1287744721602740292/1310531216948199424/Langage_C_-_TP_intermediaire.pptx?ex=676bca4e&is=676a78ce&hm=058266ced42a7a24cd4f79e8428651309b5e0871a0e858ed79881c417fc97afa&))
+Console App game in c#. It's a School project. The objective is to make an Summoners War like in console. ([Order of the Projects](https://docs.google.com/presentation/d/1TL3WGgDPJBu4guwMyqrRaxLhHI7yfw8v/edit?usp=drive_link&ouid=108522353336353845081&rtpof=true&sd=true))
 
 Here's the tutorial for download and start the project. 
 
