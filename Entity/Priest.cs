@@ -10,13 +10,11 @@ internal class Priest : Character
         Dodge = 10;
         Parry = 0;
         TankSpell = 20;
-        ListSpell = [new("Smite", (int)AD, Game.DamageType.Physical, false, Smite, 1, Spell.Target.SingleEnnemy), new("Healing Zone", (int)AD, Game.DamageType.Physical, true, HealingZone, 1, Spell.Target.Self), new("Mana Burn", (int)AP, Game.DamageType.Magic, false, ManaBurn, 1, Spell.Target.SingleEnnemy, 15), Spell.ManaPotion];
+        ListSpell = [new("Smite", (int)AP, Game.DamageType.Magic, false, Smite, 1, Spell.Target.SingleEnnemy, 15), new("Healing Zone", 0, Game.DamageType.Magic, true, HealingZone, 2, Spell.Target.AllyTeam, 30), new("Mana Burn", (int)AP, Game.DamageType.Magic, true, ManaBurn, 3, Spell.Target.SingleEnnemy, 20), Spell.ManaPotion];
         AvailableSpell = ListSpell;
         Speed = 70;
         MaxMana = 70;
         Mana = MaxMana;
-        
-        //In first the damage Spell, in second support Spell in last other.
     }
 
     public void Smite(List<Character> target)

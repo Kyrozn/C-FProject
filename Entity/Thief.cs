@@ -13,7 +13,6 @@ internal class Thief : Character
         ListSpell = [new("Low blow", (int)AD, Game.DamageType.Physical, false, LowBlow, 1, Spell.Target.SingleEnnemy), new("Escape", (int)AD, Game.DamageType.Physical, true, Escape, 1, Spell.Target.Self)];
         AvailableSpell = ListSpell;
         Speed = 100;
-        //In first the damage Spell, in second support Spell in last other.
     }
 
     public void LowBlow(List<Character> target)
@@ -30,7 +29,7 @@ internal class Thief : Character
     }
     public void Escape(List<Character> target)
     {
-        
+        //doesn't understand the rule. Check the Order file (in the readMe)
     }
     new public int DefenseMethod(int dmg, Game.DamageType TypeDamage, out string? sentence)
     {
