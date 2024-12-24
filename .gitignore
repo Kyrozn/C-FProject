@@ -1,0 +1,14 @@
+# Fichiers de build
+/bin/
+/obj/
+
+# Fichiers de configuration IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers de dépendances NuGet
+/packages/
