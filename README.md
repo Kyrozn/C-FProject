@@ -9,19 +9,19 @@ Here's the tutorial for download and start the project.
 2. Ensure you have the .Net SDK 8.0 else download from [this link](https://dotnet.microsoft.com/fr-fr/download/dotnet/8.0)
 
 # Download the Project
-1. Clone the projects with this command:
+1. Clone the project with this command:
 ```bash
     git clone https://github.com/Kyrozn/C-FProject.git
 ```
-2. Move to the directories for start the projects
+2. Move to the directory for start the project
 ```bash
     cd C-FProject
 ```
-*If you want to see the code you can use the following command (only vscode) :*
+*If you want to see the code you should use the following command (only vscode) :*
 ```bash
     code .
 ```
-3. Restore Package and ensure all dependecies are download :
+3. Restore Package and ensure all dependecies are downloaded :
 ```bash
     dotnet restore
 ```
